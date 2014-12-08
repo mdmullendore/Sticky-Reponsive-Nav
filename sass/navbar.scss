@@ -1,0 +1,66 @@
+/*navbar sass */
+
+nav{
+	width:100%;
+	background-color:rgba(255, 255, 255, 1.0);
+	overflow:hidden;
+	position:fixed;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.4);
+	main{
+		max-width:1140px;
+		margin:auto;
+		overflow:hidden;
+	}
+	@for $i from 1 through 3{
+		ul:nth-child(#{$i}){
+			display:inline-block;
+			float:right;
+			li{
+				display:inline-block;
+				padding: 19px 15px 25px 15px;
+			}
+		}
+		ul:nth-child(1){
+			float:left;
+			li{
+				padding: 14px 15px;
+			}
+		}
+		@media screen and (max-width:768px){
+			ul:nth-child(3){
+				display:none;
+			}
+			ul:nth-child(2){
+				li{
+					padding: 19px 15px 19px 15px;
+				}
+			}
+		}
+	}
+	a{
+		text-decoration: none;
+		color:#444444;
+		&:hover{
+			opacity: 0.75;
+		}
+	}
+	img{
+		cursor: pointer;
+		&:hover{
+			opacity:0.75;
+		}
+	}
+	i{
+		display:none;
+		font-size:20px;
+		padding:5px;
+		color:#444444;
+		cursor:pointer;
+		@media screen and (max-width:768px){
+			display:block;
+		}
+		&:hover{
+			opacity:0.8;
+		}
+	}
+}

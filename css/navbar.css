@@ -1,0 +1,134 @@
+/*navbar sass */
+/* line 3, ../sass/navbar.scss */
+nav {
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.4);
+}
+/* line 9, ../sass/navbar.scss */
+nav main {
+  max-width: 1140px;
+  margin: auto;
+  overflow: hidden;
+}
+/* line 15, ../sass/navbar.scss */
+nav ul:nth-child(1) {
+  display: inline-block;
+  float: right;
+}
+/* line 18, ../sass/navbar.scss */
+nav ul:nth-child(1) li {
+  display: inline-block;
+  padding: 19px 15px 25px 15px;
+}
+/* line 23, ../sass/navbar.scss */
+nav ul:nth-child(1) {
+  float: left;
+}
+/* line 25, ../sass/navbar.scss */
+nav ul:nth-child(1) li {
+  padding: 14px 15px;
+}
+@media screen and (max-width: 768px) {
+  /* line 30, ../sass/navbar.scss */
+  nav ul:nth-child(3) {
+    display: none;
+  }
+  /* line 34, ../sass/navbar.scss */
+  nav ul:nth-child(2) li {
+    padding: 19px 15px 19px 15px;
+  }
+}
+/* line 15, ../sass/navbar.scss */
+nav ul:nth-child(2) {
+  display: inline-block;
+  float: right;
+}
+/* line 18, ../sass/navbar.scss */
+nav ul:nth-child(2) li {
+  display: inline-block;
+  padding: 19px 15px 25px 15px;
+}
+/* line 23, ../sass/navbar.scss */
+nav ul:nth-child(1) {
+  float: left;
+}
+/* line 25, ../sass/navbar.scss */
+nav ul:nth-child(1) li {
+  padding: 14px 15px;
+}
+@media screen and (max-width: 768px) {
+  /* line 30, ../sass/navbar.scss */
+  nav ul:nth-child(3) {
+    display: none;
+  }
+  /* line 34, ../sass/navbar.scss */
+  nav ul:nth-child(2) li {
+    padding: 19px 15px 19px 15px;
+  }
+}
+/* line 15, ../sass/navbar.scss */
+nav ul:nth-child(3) {
+  display: inline-block;
+  float: right;
+}
+/* line 18, ../sass/navbar.scss */
+nav ul:nth-child(3) li {
+  display: inline-block;
+  padding: 19px 15px 25px 15px;
+}
+/* line 23, ../sass/navbar.scss */
+nav ul:nth-child(1) {
+  float: left;
+}
+/* line 25, ../sass/navbar.scss */
+nav ul:nth-child(1) li {
+  padding: 14px 15px;
+}
+@media screen and (max-width: 768px) {
+  /* line 30, ../sass/navbar.scss */
+  nav ul:nth-child(3) {
+    display: none;
+  }
+  /* line 34, ../sass/navbar.scss */
+  nav ul:nth-child(2) li {
+    padding: 19px 15px 19px 15px;
+  }
+}
+/* line 40, ../sass/navbar.scss */
+nav a {
+  text-decoration: none;
+  color: #444444;
+}
+/* line 43, ../sass/navbar.scss */
+nav a:hover {
+  opacity: 0.75;
+}
+/* line 47, ../sass/navbar.scss */
+nav img {
+  cursor: pointer;
+}
+/* line 49, ../sass/navbar.scss */
+nav img:hover {
+  opacity: 0.75;
+}
+/* line 53, ../sass/navbar.scss */
+nav i {
+  display: none;
+  font-size: 20px;
+  padding: 5px;
+  color: #444444;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  /* line 53, ../sass/navbar.scss */
+  nav i {
+    display: block;
+  }
+}
+/* line 62, ../sass/navbar.scss */
+nav i:hover {
+  opacity: 0.8;
+}
