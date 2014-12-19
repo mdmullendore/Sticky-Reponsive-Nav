@@ -1,0 +1,21 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    .sass-cache/becee2586fe71af0e79ee3b93c12eb9bb2c3a46f/demo.sassc
+#	deleted:    .sass-cache/becee2586fe71af0e79ee3b93c12eb9bb2c3a46f/demo.scssc
+#	deleted:    .sass-cache/becee2586fe71af0e79ee3b93c12eb9bb2c3a46f/icons.scssc
+#	deleted:    .sass-cache/becee2586fe71af0e79ee3b93c12eb9bb2c3a46f/main.scssc
+#	deleted:    .sass-cache/becee2586fe71af0e79ee3b93c12eb9bb2c3a46f/navbar.scssc
+#	deleted:    .sass-cache/becee2586fe71af0e79ee3b93c12eb9bb2c3a46f/reset.scssc
+#	modified:   css/main.css
+#	modified:   css/navbar.css
+#	modified:   index.html
+#	modified:   javascript/navbar.js
+#	modified:   sass/navbar.scss
+#	new file:   server.js
+#
+

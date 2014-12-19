@@ -20,26 +20,34 @@
 				</ul>
 				<ul>
 					<li><i class="icon-bars"></i></li>
-				</ul>	
+				</ul>
 				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
-					<li><a href="#">Link 3</a></li>
-					<li><a href="#">Link 4</a></li>
+					<li><a href="#link1">Link 1</a></li>
+					<li class="dropdown-link">
+						<a href="#">Link 2</a>
+						<ul class="dropdown">
+							<li><a href="#">Dropdown Link</a></li>
+							<li><a href="#">Dropdown Link</a></li>
+							<li><a href="#">Dropdown Link</a></li>
+							<li><a href="#">Dropdown Link</a></li>
+						</ul>
+					</li>
+					<li><a href="#link2">Link 3</a></li>
+					<li><a href="#link3">Link 4</a></li>
 				</ul>
 			</main>	
 		</nav>
 
-		<article>
+		<article id="link1">
 			<h1>Responsive Sticky Nav</h1>
 			<p>Nar bar stays at the top of the page as the user scrolls up and down page.</p>
 			<i class="icon-bottom-arrow"></i>
 		</article>
 
-		<section>
+		<section id="link2">
 			<h1><i class="icon-github"></i><br>Download on Github at:</h1>
 		</section>
-		<footer>
+		<footer id="link3">
 			<p>Add Footer</p>
 		</footer>
 		<script type="text/javascript" src="javascript/jquery-1.11.1.min.js"></script>
