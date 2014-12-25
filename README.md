@@ -10,10 +10,10 @@ It is 100% FREE, enjoy the sweetness.
 
 Project SetUp
 
-HTML5
-CSS3 / SASS
-Javascript / JQUERY / NODE
-IconFonts provided by fontawesome
+HTML5<br>
+CSS3 / SASS<br>
+Javascript / JQUERY / NODE<br>
+IconFonts provided by fontawesome<br>
 
 
 1. Starting the server. This server runs on NODE. Make sure you have 
