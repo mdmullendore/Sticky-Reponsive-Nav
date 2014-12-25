@@ -30,7 +30,7 @@ IconFonts provided by fontawesome<br>
 3. SASS the project was written in sass. Make sure sass is install. To learn more 
    visit: http://sass-lang.com/<br>
    Recommended method of choice for complying is using scout. Download and install
-   scout at: http://mhs.github.io/scout-app/<br?
+   scout at: http://mhs.github.io/scout-app/<br>
    SASS is optional aswell you can use the css files in the css root folder and 
    it will work fine.
 
