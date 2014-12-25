@@ -1,5 +1,4 @@
 /*demo sass*/
-/* line 3, ../sass/demo.scss */
 body {
   background: url("../images/phone-in-hand.jpg") no-repeat 50% 50% fixed;
   -webkit-background-size: cover;
@@ -8,50 +7,68 @@ body {
   background-size: cover;
 }
 
-/* line 12, ../sass/demo.scss */
 h1 {
   font-size: 36px;
   line-height: 40px;
   font-family: 'Roboto', Sans-serif;
 }
 
-/* line 18, ../sass/demo.scss */
 p, a {
   font-size: 18px;
   line-height: 22px;
   font-family: 'Roboto', Sans-serif;
 }
 
-/* line 24, ../sass/demo.scss */
 article {
   text-align: center;
   height: 100vh;
-  padding-top: 20%;
+  padding-top: 25%;
 }
-/* line 28, ../sass/demo.scss */
 article h1, article p {
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #000000;
 }
 
-/* line 34, ../sass/demo.scss */
 section {
   height: 70vh;
   background: #f1f1f1;
   text-align: center;
 }
-/* line 38, ../sass/demo.scss */
 section h1 {
   color: #444;
 }
 
-/* line 43, ../sass/demo.scss */
+section#link2 h1 {
+  padding-top: 15%;
+  padding-bottom: 40px;
+}
+section#link2 h1 i {
+  font-size: 65px;
+}
+section#link2 a {
+  margin-top: 20px;
+  display: block;
+  box-size: border-box;
+  margin: auto;
+  padding: 10px 25px;
+  border: 2px solid #444;
+  color: #444;
+  text-decoration: none;
+  font-size: 24px;
+  width: 220px;
+  background-color: #f1F1F1;
+}
+section#link2 a:hover {
+  background-color: #444;
+  color: #F1F1F1;
+}
+
 footer {
   height: 30vh;
   background-color: #444;
 }
-/* line 46, ../sass/demo.scss */
 footer p {
   text-align: center;
   color: #fff;
+  padding-top: 15vh;
 }
