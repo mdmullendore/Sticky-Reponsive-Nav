@@ -23,7 +23,7 @@ IconFonts provided by fontawesome<br>
 
 2. Running the server is simple. Nagivate to the project directly in the terminal
    and run:<br>
-   		node server.js<br?
+   		node server.js<br>
    If done correctly you will see a message about the server being ran on localhost:5050.
    Of couse you can run the statically and just open the index.html in the browser.
 
