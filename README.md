@@ -1,6 +1,11 @@
 Sticky-Reponsive-Nav
 ====================
 
+Desktop screenshot:https://github.com/mdmullendore/Sticky-Reponsive-Nav/blob/master/desktop_screenshot.png
+
+Mobile screenshot:https://github.com/mdmullendore/Sticky-Reponsive-Nav/blob/master/mobile_screenshot.png
+
+
 A sticky, responsive nav for all your responsive website.
 
 
